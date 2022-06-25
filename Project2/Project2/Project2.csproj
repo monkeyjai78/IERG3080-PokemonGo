@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\1391.png" />
+    <None Remove="images\blastoise.png" />
+    <None Remove="images\bulbasaur.png" />
+    <None Remove="images\charizard.png" />
+    <None Remove="images\charmander.png" />
+    <None Remove="images\gym_bg.jpg" />
+    <None Remove="images\manageBG.jpg" />
+    <None Remove="images\manageBG2.jpg" />
+    <None Remove="images\manageBG3.jpg" />
+    <None Remove="images\MiniGameBG.jpg" />
+    <None Remove="images\pngfind.com-pokemon-trainer-red-png-4769662.png" />
+    <None Remove="images\squirtle.png" />
+    <None Remove="images\startBG.jpeg" />
+    <None Remove="images\venusaur.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\1391.png" />
+    <Resource Include="images\blastoise.png" />
+    <Resource Include="images\bulbasaur.png" />
+    <Resource Include="images\charizard.png" />
+    <Resource Include="images\charmander.png" />
+    <Resource Include="images\gym_bg.jpg" />
+    <Resource Include="images\manageBG.jpg" />
+    <Resource Include="images\manageBG2.jpg" />
+    <Resource Include="images\manageBG3.jpg" />
+    <Resource Include="images\MiniGameBG.jpg" />
+    <Resource Include="images\pngfind.com-pokemon-trainer-red-png-4769662.png" />
+    <Resource Include="images\squirtle.png" />
+    <Resource Include="images\startBG.jpeg" />
+    <Resource Include="images\venusaur.png" />
+  </ItemGroup>
+
+</Project>

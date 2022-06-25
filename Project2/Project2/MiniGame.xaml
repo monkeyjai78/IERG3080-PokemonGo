@@ -1,0 +1,23 @@
+﻿<Window x:Class="Project2.MiniGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"
+        Title="Window1" ResizeMode="NoResize" Height="600" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://application:,,,/images/MiniGameBG.jpg" Stretch="Fill" />
+    </Window.Background>
+    <Grid x:Name="myGrid" RenderTransformOrigin="0.483,0.55">
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Center" Height="36" Margin="-400,350,0,0" VerticalAlignment="Center" Width="93" Click="Start_Click"/>
+        <Button x:Name="End" Content="End" HorizontalAlignment="Center" Height="36" Margin="400,350,0,0" VerticalAlignment="Center" Width="93" Click="End_Click"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Center" Height="250" VerticalAlignment="Top" Width="250" Margin="0,235,0,0"/>
+
+        <Rectangle Name="catchPokemon_Rec"
+                       Canvas.Left="10" 
+                       Canvas.Top="10" Margin="302,29,295,388" />
+        <TextBlock HorizontalAlignment="Left" Margin="50,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="96"><Run Language="zh-tw" Text="Blue,Grey: Success"/><LineBreak/><Run Language="zh-tw"/><LineBreak/><Run Language="zh-tw" Text="Red,Green:"/><LineBreak/><Run Language="zh-tw" Text="Fail"/></TextBlock>
+
+    </Grid>
+</Window>
